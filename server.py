@@ -15,7 +15,7 @@ def copyToClipboard():
 # create a socket object
 serversocket = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
 
-serversocket.bind(("192.168.58.192", 9999))
+serversocket.bind(("Your IPV4", 9999))
 serversocket.listen(5)
 
 while True:
